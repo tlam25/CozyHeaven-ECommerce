@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @var Modules\News\Block\NewsBlock $block
+ */
+$news = $block->getNews()['channel']['item'];
+?>
+
+<h1 class="module-title">Bản tin Kinh doanh</h1>
+
+<?php foreach($news as $new): ?>
+    <div class="new">
+        <h2><?php echo $new['title'] ?></h2>
+        <p><?php echo $new['pubDate'] ?></p>
+        <div class = "description-news"><?php echo $new['description']?></div>
+        <a class = "read-more" href="<?php echo $new['link']?>">Xem thêm</a>
+    </div>
+<?php endforeach ?>

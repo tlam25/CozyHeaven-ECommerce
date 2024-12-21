@@ -1,0 +1,1 @@
+/var/www/html/magento2/app/code/Modules/ZaloPay/view/frontend/web/js/view/payment/zalopay.js

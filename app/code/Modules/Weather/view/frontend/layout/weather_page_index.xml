@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>Weather</title>
+        <css src="Modules_Weather::/css/weather_style.css"/>
+    </head>
+
+    <referenceBlock name="content">
+        <block class="Modules\Weather\Block\WeatherBlock" name="weather_page_index" template="weather.phtml" />
+    </referenceBlock>
+</page>

@@ -1,0 +1,43 @@
+<h3>Today's weather</h3>
+
+<div id="weather">
+    <div class="top-content">
+        <h2>Hanoi, Viet Nam</h2>
+    </div>
+
+    <div class="mid-content">
+        <div class="image" id="image"></div>
+        <div class="temperature"></div>
+    </div>
+</div>
+
+<script>
+    require(['jquery', 'simple_weather'], function ($) {
+        $(function () {
+            $.simpleWeather({
+                location: 'Hanoi, VN',
+                woeid: '',
+                unit: 'c',
+                success: function (weather) {
+                    $('.image').html('<img src="' + weather.image + '"/>');
+                    $('.temperature').html(weather.temp + '<sup>o</sup>C');
+
+                    var info = '<li>Status: ' + weather.currently + '</li>' +
+                        '<li>Range: ' + weather.low + '<sup>o</sup>C - ' + weather.high + '<sup>o</sup>C</li>' +
+                        '<li>Wind: ' + weather.wind.speed + ' km/h</li>';
+                    $('.info').html(info);
+                },
+                error: function (error) {
+                    $("#weather").html('<p>' + error + '</p>');
+                }
+            });
+        });
+    });
+
+    require(['jquery'], function ($) {
+        ($.get('http://api.weatherapi.com/v1/current.json?key=a6b116b001f84614bf991059231212&q=Hanoi', function(data) {
+            $('.image').html('<img src="' + data.current.condition.icon + '"/>');
+            $('.temperature').html(data.current.temp_c + '<sup>o</sup>C');
+        }))();
+    })
+</script>

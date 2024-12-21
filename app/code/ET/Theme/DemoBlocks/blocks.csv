@@ -1,0 +1,511 @@
+title,identifier,content,is_active,stores
+Header Contact Info,et_header_contact_info,"<div class=""header-contact-block"">
+    <div class=""item"">
+        <span class=""icon-block"">
+            <em class=""fa fa-phone""></em>
+        </span>
+        <span class=""text-block"">
+            Call Us Now
+            <a href=""tel:+123456789"">(123) 4567-890</a>
+        </span>
+    </div>
+</div>",1,0
+
+Footer Get in Touch,et_footer_contact_info,"<div class=""title"">
+    Get in Touch
+</div>
+<div class=""content"">
+    <div class=""add-item"">
+        <div class=""icon"">
+            <i class=""fa fa-map-marker""></i>
+        </div>
+        <div class=""text"">
+            <strong>Address</strong>
+            <p>114 Xuan Thuy, Cau Giay, Hanoi, Viet Nam</p>
+        </div>
+    </div>
+    <div class=""add-item"">
+        <div class=""icon"">
+            <i class=""fa fa-phone""></i>
+        </div>
+        <div class=""text"">
+            <strong>Phone</strong>
+            <p>+84 868109250</p>
+        </div>
+    </div>
+    <div class=""add-item"">
+        <div class=""icon"">
+            <i class=""fa fa-envelope""></i>
+        </div>
+        <div class=""text"">
+            <strong>Mail Us</strong>
+            <p>cozyheave-furniture@gmail.com</p>
+        </div>
+    </div>
+</div>",1,0
+Footer My Account,et_footer_my_account,"<div class=""title"">
+    My Account
+</div>
+<div class=""content"">
+    <ul>
+        <li>
+            <a href=""{{store url='customer/account'}}"">My Account</a>
+        </li>
+        <li>
+            <a href=""{{store url='customer/account'}}"">Login</a>
+        </li>
+        <li>
+            <a href=""{{store url='checkout/cart'}}"">Shopping Cart</a>
+        </li>
+        <li>
+            <a href=""{{store url='wishlist'}}"">My Wishlist</a>
+        </li>
+        <li>
+            <a href=""#"">Track Order</a>
+        </li>
+        <li>
+            <a href=""#"">Return Policy</a>
+        </li>
+    </ul>
+</div>",1,0
+Footer Quick Links,et_footer_quicklinks,"<div class=""title"">
+    Quick Links
+</div>
+<div class=""content"">
+    <ul>
+        <li>
+            <a href=""{{store url='privacy-policy-cookie-restriction-mode'}}"">
+                Privacy and Cookie Policy
+            </a>
+        </li>
+        <li>
+            <a href=""{{store url='search/term/popular'}}"">
+                Search Terms
+            </a>
+        </li>
+        <li>
+            <a href=""{{store url='contact'}}"">
+                Contact Us
+            </a>
+        </li>
+        <li>
+            <a href=""{{store url='sales/guest/form'}}"">
+                Orders and Returns
+            </a>
+        </li>
+        <li>
+            <a href=""{{store url='catalogsearch/advanced'}}"" data-action=""advanced-search"">
+                Advanced Search
+            </a>
+        </li>
+    </ul>
+</div>",1,0
+Footer Customer Services,et_footer_customer_services,"<div class=""title"">
+    Customer Services
+</div>
+<div class=""content"">
+    <ul>
+        <li>
+            <a href=""tel:1234567890"">Phone: +84 868109250</a>
+        </li>
+        <li>
+            <a href=""#"">Live Chat</a>
+        </li>
+        <li>
+            <a href=""#"">About Us</a>
+        </li>
+        <li>
+            <a href=""#"">Terms & Condition</a>
+        </li>
+        <li>
+            <a href=""#"">Customer Relation</a>
+        </li>
+        <li>
+            <a href=""#"">Privacy Policy</a>
+        </li>
+    </ul>
+</div>",1,0
+Payment Icons,et_payment_icons,"<ul class=""payment-icons"">
+    <li><img src=""{{media url='etrend/payment/amex.png'}}"" alt=""Amex"" /></li>
+    <li><img src=""{{media url='etrend/payment/mastercard.png'}}"" alt=""Master Card"" /></li>
+    <li><img src=""{{media url='etrend/payment/paypal.png'}}"" alt=""Paypal"" /></li>
+    <li><img src=""{{media url='etrend/payment/visa.png'}}"" alt=""Visa"" /></li>
+</ul>",1,0
+Home slider,et_home_slider,"<div class=""slider-wrapper"">
+    <div class=""content-main "">
+        <div id=""home-slider"" class=""slides owl-carousel owl-theme"">
+            <div class=""item"" style="" background: url({{media url='bannerslider/image/slide1.jpg'}}) center center no-repeat; background-size: cover; background-repeat: no-repeat;"">
+                <a class=""banner-link"" href=""#"" title=""Slide 1""></a>
+                <img class=""slide-hidden-img"" src=""{{media url='bannerslider/image/slide1.jpg'}}"" alt=""Slide 1"">
+                <div class=""slide-content  page-main"">
+                    <div class=""text-content left"">
+                        <h2>
+                            Up to <span>40%</span><br>
+                            <strong>DISCOUNT</strong><br>
+                            on Furniture<br>
+                            Brands
+                        </h2>
+                        <a href=""#"" class=""action primary"">Shop Now</a> 
+                    </div>
+                </div>
+            </div>
+            <div class=""item"" style="" background: url({{media url='bannerslider/image/slide2.jpg'}}) center center no-repeat; background-size: cover; background-repeat: no-repeat;"">
+                <img class=""slide-hidden-img"" src=""{{media url='bannerslider/image/slide2.jpg'}}"" alt=""Slide 2"">
+                <div class=""slide-content  page-main"">
+                    <div class=""text-content right"">
+                        <h2>
+                            Up to <span>40%</span><br>
+                            <strong>DISCOUNT</strong><br>
+                            on Furniture<br>
+                            Brands
+                        </h2>
+                        <a href=""#"" class=""action primary"">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class=""item"" style="" background: url({{media url='bannerslider/image/slide3.jpg'}}) center center no-repeat; background-size: cover; background-repeat: no-repeat;"">
+                <img class=""slide-hidden-img"" src=""{{media url='bannerslider/image/slide3.jpg'}}"" alt=""Slide 3"">
+                <div class=""slide-content  page-main"">
+                    <div class=""text-content right"">
+                        <h2>
+                            Up to <span>40%</span><br>
+                            <strong>DISCOUNT</strong><br>
+                            on Furniture<br>
+                            Brands
+                        </h2>
+                        <a href=""#"" class=""action primary"">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>",1,0
+Home Services,et_home_services,"<div class=""home-services"">
+    <div class=""page-main"">
+        <div class=""item-row"">
+            <div class=""item"">
+                <div class=""item-inner"">
+                    <div class=""icon"">
+                        <img src=""{{media url='etrend/home/online-support.png'}}"" alt=""24/7 Online Support"" />
+                    </div>
+                    <div class=""text"">
+                        <strong>
+                            24/7 Online Support
+                        </strong>
+                        <p>
+                            Trained stufs are ready to help 24/7
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=""item"">
+                <div class=""item-inner"">
+                    <div class=""icon"">
+                        <img src=""{{media url='etrend/home/money-back.png'}}"" alt=""Money Back Guarantee"" />
+                    </div>
+                    <div class=""text"">
+                        <strong>
+                            Money Back Guarantee
+                        </strong>
+                        <p>
+                            100% money back guarantee
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=""item"">
+                <div class=""item-inner"">
+                    <div class=""icon"">
+                        <img src=""{{media url='etrend/home/free-shipping.png'}}"" alt=""Free Shipping & Return"" />
+                    </div>
+                    <div class=""text"">
+                        <strong>
+                            Free Shipping & Return
+                        </strong>
+                        <p>
+                            Free shipping on all orders over $100
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>",1,0
+Promotion Block One,et_promotion_one,"<div class=""promotion-one"">
+    <div class=""page-main"">
+        <div class=""item-row"">
+            <div class=""item"">
+                <div class=""item-inner"">
+                    <img src=""{{media url='etrend/home/image1.jpg'}}"" alt=""image"" />
+                    <div class=""text-content"">
+                        <p>
+                            Only <span>Three</span><br/>
+                            <strong>DAYS LEFT</strong><br/>
+                            on Furniture<br/>
+                            Weeks sale!
+                        </p>
+                        <a class=""action primary"" href=""#"">
+                            Shop Today
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class=""item"">
+                <div class=""item-inner"">
+                    <img src=""{{media url='etrend/home/image2.jpg'}}"" alt=""image"" />
+                    <div class=""text-content"">
+                        <p>
+                            Get <span>Winter</span><br/>
+                            <strong>COLLECTION</strong><br/>
+                            with online<br/>
+                            purchase
+                        </p>
+                        <a class=""action primary"" href=""#"">
+                            Get Your Copy
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>",1,0
+Promotion Block Two,et_promotion_two,"<div class=""promotion-two"" style=""background-image: url({{media url='etrend/home/paralex-bg.jpg'}});"">
+    <div class=""page-main"">
+        <div class=""content-main"">
+            <h3>
+                Summer Collection is out now!
+            </h3>
+            <a class=""link-btn"" href=""#"">
+                <span>Get your copy</span>
+            </a>
+        </div>
+    </div>
+</div>",1,0
+Home Blogs,et_home_blogs,"<div class=""blogs-wrapper"">
+    <div class=""page-main"">
+        <div class=""section-title"">
+            <span>Latest <i>Blogs</i></span>
+        </div>
+        <div class=""content-main"">
+            <div class=""item-row"">
+                <div id=""home-blogslider"" class=""items owl-carousel owl-theme"">
+                    <div class=""item"" style=""display: none;"">
+                        <div class=""item-inner"">
+                            <div class=""img-block"">
+                                <a href=""#"">
+                                    <img src=""{{media url='etrend/blog/blog-1.png'}}"" alt="""">
+                                </a>
+                                <div class=""post-date"">
+                                    <span>July 30, 2020</span>
+                                </div>
+                            </div>
+                            <div class=""info-block"">
+                                <div class=""post-title"">
+                                    <a class=""post-item-link"" href=""https://www.bdiusa.com/blog/how-to-choose-the-right-tv-size"">
+                                        How to Choose the Right TV Size
+                                    </a>
+                                </div>
+                                <div class=""post-text"">
+                                    <p>
+                                        Bigger is often equated with better. And although TV screens continue to get thinner and larger—with increasingly higher picture quality—it's important to remember that, depending on the distance you're sitting from them, bigger screens don't always provide the best viewing experience. 
+                                        A larger TV screen can look overwhelming or out of place in a more confined space if you sit too close. 
+                                        Too far, and you lose the immersion that we seek to achieve with a good home theater setup. 
+                                        This blog will look at choosing the perfect TV size for your living space.
+                                    </p>
+                                </div>
+                                <a class=""action primary"" href=""https://www.bdiusa.com/blog/how-to-choose-the-right-tv-size"">
+                                    Read more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=""item"" style=""display: none;"">
+                        <div class=""item-inner"">
+                            <div class=""img-block"">
+                                <a href=""#"">
+                                    <img src=""{{media url='etrend/blog/blog-2.png'}}"" alt=""#"">
+                                </a>
+                                <div class=""post-date"">
+                                    <span>July 22, 2020</span>
+                                </div>
+                            </div>
+                            <div class=""info-block"">
+                                <div class=""post-title"">
+                                    <a class=""post-item-link"" href=""https://www.bdiusa.com/blog/furniture-buying-tips-for-first-time-home-owners"">
+                                        Furniture Buying Tips for First Time Homeowners
+                                    </a>
+                                </div>
+                                <div class=""post-text"">
+                                    <p>
+                                        Buying your first home is one of life's most memorable moments. However, with an expanse of empty rooms, bare floors, and blank walls, decorating your new house may also seem like a daunting task. 
+                                        Luckily, with proper planning and consideration, furnishing a home that matches your needs and personal style can be very fulfilling. Before you even start, however, there are several things you need to consider before you ever set foot in a store or shop online. 
+                                        Here are a few furniture buying tips to help you turn your new house into a home. 
+                                    </p>
+                                </div>
+                                <a class=""action primary"" href=""https://www.bdiusa.com/blog/furniture-buying-tips-for-first-time-home-owners"">
+                                    Read more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=""item"" style=""display: none;"">
+                        <div class=""item-inner"">
+                            <div class=""img-block"">
+                                <a href=""#"">
+                                    <img src=""{{media url='etrend/blog/blog-3.png'}}"" alt="""">
+                                </a>
+                                <div class=""post-date"">
+                                    <span>July 22, 2020</span>
+                                </div>
+                            </div>
+                            <div class=""info-block"">
+                                <div class=""post-title"">
+                                    <a class=""post-item-link"" href=""https://www.bdiusa.com/blog/focus-on-features-office-storage-and-security"">
+                                        Focus on BDI Office Features: Storage and Security
+                                    </a>
+                                </div>
+                                <div class=""post-text"">
+                                    <p>
+                                        For today's home offices, BDI offers a variety of storage and filing solutions in various sizes, configurations, and finishes. 
+                                        Through thoughtful engineering, we have designed our office cabinets and credenzas to better suit the needs of a modern workspace while offering additional solutions that keep your work files and materials securely stored away yet within easy reach. 
+                                        Here are some innovative storage and security features that come standard in our office solutions.
+                                    </p>
+                                </div>
+                                <a class=""action primary"" href=""https://www.bdiusa.com/blog/focus-on-features-office-storage-and-security"">
+                                    Read more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=""item"" style=""display: none;"">
+                        <div class=""item-inner"">
+                            <div class=""img-block"">
+                                <a href=""#"">
+                                    <img src=""{{media url='etrend/blog/blog-4.png'}}"" alt="""">
+                                </a>
+                                <div class=""post-date"">
+                                    <span>July 14, 2020</span>
+                                </div>
+                            </div>
+                            <div class=""info-block"">
+                                <div class=""post-title"">
+                                    <a class=""post-item-link"" href=""https://www.bdiusa.com/blog/how-to-stock-a-home-bar"">
+                                        How to Properly Stock A Home Bar
+                                    </a>
+                                </div>
+                                <div class=""post-text"">
+                                    <p>
+                                        A properly stocked bar is a must for those who love to entertain, and it doesn't need to break the bank. 
+                                        By assessing your needs each season and before planned gatherings, you can start with the basics and build from there. 
+                                        Planning the bar of your dreams can also be a lot of fun. 
+                                        To help you along in this effort, we have prepared the following guide of essential bar supplies that you should always have on hand to help cement your role as 'host extraordinaire' at your next get-together or party.
+                                    </p>
+                                </div>
+                                <a class=""action primary"" href=""https://www.bdiusa.com/blog/how-to-stock-a-home-bar"">
+                                    Read more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>",1,0
+Home Brand Slider,et_brand_slider,"<div class=""brands-wrapper"">
+    <div class=""page-main"">
+        <div class=""section-title"">
+            <span>Shop By <i>Brand</i></span>
+        </div>
+        <div class=""content-main"">
+            <div class=""brands-slider owl-carousel owl-theme"">
+                <div class=""item"">
+                    <a href=""#"">
+                        <img src=""{{media url='etrend/brand/brand1.png'}}"" alt=""brand-image"" />
+                    </a>
+                </div>
+                <div class=""item"">
+                    <a href=""#"">
+                        <img src=""{{media url='etrend/brand/brand2.png'}}"" alt=""brand-image"" />
+                    </a>
+                </div>
+                <div class=""item"">
+                    <a href=""#"">
+                        <img src=""{{media url='etrend/brand/brand3.png'}}"" alt=""brand-image"" />
+                    </a>
+                </div>
+                <div class=""item"">
+                    <a href=""#"">
+                        <img src=""{{media url='etrend/brand/brand4.png'}}"" alt=""brand-image"" />
+                    </a>
+                </div>
+                <div class=""item"">
+                    <a href=""#"">
+                        <img src=""{{media url='etrend/brand/brand5.png'}}"" alt=""brand-image"" />
+                    </a>
+                </div>
+                <div class=""item"">
+                    <a href=""#"">
+                        <img src=""{{media url='etrend/brand/brand1.png'}}"" alt=""brand-image"" />
+                    </a>
+                </div>
+                <div class=""item"">
+                    <a href=""#"">
+                        <img src=""{{media url='etrend/brand/brand2.png'}}"" alt=""brand-image"" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>",1,0
+Footer Logo and Socials Content,et_footer_logo_socials,"<div class=""logo-socials align-center"">
+<img src=""{{media url='etrend/footer/logo.png'}}"" title=""Etrend"" alt=""Etrend"" />
+<p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+</p>
+{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""social_icons""}}
+</div>",1,0
+Social Icons,et_social_icons,"<ul class=""socials"">
+                        <li>
+                            <a href=""#"">
+                                <i class=""fa fa-facebook"" aria-hidden=""true""></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""#"">
+                                <i class=""fa fa-twitter"" aria-hidden=""true""></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""#"">
+                                <i class=""fa fa-pinterest-p"" aria-hidden=""true""></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""#"">
+                                <i class=""fa fa-youtube-play"" aria-hidden=""true""></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""#"">
+                                <i class=""fa fa-vimeo"" aria-hidden=""true""></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""#"">
+                                <i class=""fa fa-instagram"" aria-hidden=""true""></i>
+                            </a>
+                        </li>
+                    </ul>",1,0
+Custom Tab 1,et_custom_tab1,"<p><strong>Custom Tab Content</strong></p>
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,</p>
+<ul>
+<li>Similique sunt in culpa qui officia deserunt mollitia animi.</li>
+<li>Nam libero tempore cum soluta nobis est.</li>
+<li>Itaque earum rerum hic tenetur a sapiente delectus ut aut reiciendis.</li>
+</ul>",1,0
+Custom Tab 2,et_custom_tab2,"<p><strong>Custom Tab Content</strong></p>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+<p><img src=""{{media url='etrend/tab-img.png'}}"" alt="""" /> </p>",1,0

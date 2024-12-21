@@ -1,0 +1,1 @@
+/var/www/html/magento2/app/code/Modules/ZaloPay/view/frontend/web/js/action/redirect-on-success.js

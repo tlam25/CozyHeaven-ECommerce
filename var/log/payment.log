@@ -1,0 +1,138 @@
+[2024-11-28 14:32:22] main.DEBUG: array (
+  'request' => 
+  array (
+    'appid' => '553',
+    'apptime' => 1732804342000,
+    'apptransid' => '241128_000000001',
+    'appuser' => NULL,
+    'item' => '[{"itemid":"Aimee Chair in Nomad Snow","itemname":"Aimee Chair in Nomad Snow","itemprice":280000,"itemquantity":"1.0000"}]',
+    'embeddata' => '{"merchantinfo":"Modules"}',
+    'amount' => 280005,
+    'description' => 'ZaloPay Integration for Magento 2',
+    'bankcode' => 'zalopayapp',
+    'mac' => '42d6546b703df29c9c8f12f6646b36814c95df63933b0c9d92f28fbbfd878227',
+  ),
+  'request_uri' => 'https://sandbox.zalopay.com.vn/v001/tpe/createorder',
+  'response' => 
+  array (
+    'returncode' => -53,
+    'returnmessage' => '',
+    'zptranstoken' => '',
+    'orderurl' => '',
+  ),
+) [] []
+[2024-11-28 14:34:22] main.DEBUG: array (
+  'request' => 
+  array (
+    'appid' => '553',
+    'apptime' => 1732804462000,
+    'apptransid' => '241128_000000002',
+    'appuser' => NULL,
+    'item' => '[{"itemid":"Aimee Chair in Nomad Snow","itemname":"Aimee Chair in Nomad Snow","itemprice":280000,"itemquantity":"1.0000"}]',
+    'embeddata' => '{"merchantinfo":"Modules"}',
+    'amount' => 280005,
+    'description' => 'ZaloPay Integration for Magento 2',
+    'bankcode' => 'zalopayapp',
+    'mac' => '9c7ed50a8223ca8f88c5cd7092005f8fd6cb3fdd7f5676c442cca1609324967a',
+  ),
+  'request_uri' => 'https://sandbox.zalopay.com.vn/v001/tpe/createorder',
+  'response' => 
+  array (
+    'returncode' => -53,
+    'returnmessage' => '',
+    'zptranstoken' => '',
+    'orderurl' => '',
+  ),
+) [] []
+[2024-11-28 14:39:12] main.DEBUG: array (
+  'request' => 
+  array (
+    'appid' => '553',
+    'apptime' => 1732804752000,
+    'apptransid' => '241128_000000003',
+    'appuser' => NULL,
+    'item' => '[{"itemid":"Aimee Chair in Nomad Snow","itemname":"Aimee Chair in Nomad Snow","itemprice":280000,"itemquantity":"1.0000"}]',
+    'embeddata' => '{"merchantinfo":"Modules"}',
+    'amount' => 280005,
+    'description' => 'ZaloPay Integration for Magento 2',
+    'bankcode' => 'zalopayapp',
+    'mac' => '3cd977842af3c6dc46fa4089089924926f3082bc2dd52996db2f76827d647e64',
+  ),
+  'request_uri' => 'https://sandbox.zalopay.com.vn/v001/tpe/createorder',
+  'response' => 
+  array (
+    'returncode' => -53,
+    'returnmessage' => '',
+    'zptranstoken' => '',
+    'orderurl' => '',
+  ),
+) [] []
+[2024-11-28 15:01:11] main.DEBUG: array (
+  'request' => 
+  array (
+    'appid' => '2553',
+    'apptime' => 1732806070000,
+    'apptransid' => '241128_000000004',
+    'appuser' => NULL,
+    'item' => '[{"itemid":"Aimee Chair in Nomad Snow","itemname":"Aimee Chair in Nomad Snow","itemprice":280000,"itemquantity":"1.0000"}]',
+    'embeddata' => '{"merchantinfo":"Modules"}',
+    'amount' => 280005,
+    'description' => 'ZaloPay Integration for Magento 2',
+    'bankcode' => 'zalopayapp',
+    'mac' => '844622a4cba02fc514016cf8bc3a636b6316498f34ac51fa2323ccffa259855d',
+  ),
+  'request_uri' => 'https://sandbox.zalopay.com.vn/v001/tpe/createorder',
+  'response' => 
+  array (
+    'returncode' => -53,
+    'returnmessage' => '',
+    'zptranstoken' => '',
+    'orderurl' => '',
+  ),
+) [] []
+[2024-11-28 15:08:10] main.DEBUG: array (
+  'request' => 
+  array (
+    'appid' => '553',
+    'apptime' => 1732806490000,
+    'apptransid' => '241128_000000005',
+    'appuser' => NULL,
+    'item' => '[{"itemid":"Aimee Chair in Nomad Snow","itemname":"Aimee Chair in Nomad Snow","itemprice":280000,"itemquantity":"1.0000"}]',
+    'embeddata' => '{"merchantinfo":"Modules"}',
+    'amount' => 280005,
+    'description' => 'ZaloPay Integration for Magento 2',
+    'bankcode' => 'zalopayapp',
+    'mac' => '9266fd37d5b83c55801500ff63cc82ffef88f1cea3642db23d8ccc82ca7ab926',
+  ),
+  'request_uri' => 'https://sandbox.zalopay.com.vn/v001/tpe/createorder',
+  'response' => 
+  array (
+    'returncode' => -53,
+    'returnmessage' => '',
+    'zptranstoken' => '',
+    'orderurl' => '',
+  ),
+) [] []
+[2024-11-28 16:16:19] main.DEBUG: array (
+  'request' => 
+  array (
+    'appid' => '2554',
+    'apptime' => 1732810579000,
+    'apptransid' => '241128_000000006',
+    'appuser' => 'Magento2',
+    'item' => '[{"itemid":"Aimee Chair in Nomad Snow","itemname":"Aimee Chair in Nomad Snow","itemprice":280000,"itemquantity":"1.0000"}]',
+    'embeddata' => '{"merchantinfo":"Modules"}',
+    'amount' => 280005,
+    'description' => 'ZaloPay Integration for Magento 2',
+    'bankcode' => 'zalopayapp',
+    'mac' => 'eab4ad5ee87c1fd51949cf4fd52235f803605aa2195f3a3cfe3b184c6cab1d7d',
+  ),
+  'request_uri' => 'https://sandbox.zalopay.com.vn/v001/tpe/createorder',
+  'response' => 
+  array (
+    'returncode' => 1,
+    'returnmessage' => '',
+    'zptranstoken' => 'ACFH_iQh539f15Ki23ssvYLw',
+    'orderurl' => 'https://qcgateway.zalopay.vn/openinapp?order=eyJ6cHRyYW5zdG9rZW4iOiJBQ0ZIX2lRaDUzOWYxNUtpMjNzc3ZZTHciLCJhcHBpZCI6MjU1NH0=',
+  ),
+) [] []
